@@ -1,0 +1,11 @@
+{
+    "salmon_version": "1.5.2",
+    "index": "Trinity.tmp.fasta.salmon.idx",
+    "libType": "U",
+    "unmatedReads": "/ahg/regev/users/bhaas/seq/bhaas/GIT/KRUMLOV/KrumlovTrinityWorkshopMay2023/treasurehunt/stage2/trinity_outdir/both.fa",
+    "output": "salmon_outdir",
+    "threads": "1",
+    "minAssignedFrags": "1",
+    "validateMappings": [],
+    "auxDir": "aux_info"
+}

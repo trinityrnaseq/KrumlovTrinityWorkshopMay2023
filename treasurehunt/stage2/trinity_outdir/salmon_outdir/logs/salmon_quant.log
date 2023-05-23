@@ -1,0 +1,44 @@
+[2023-05-14 12:02:29.654] [jointLog] [info] setting maxHashResizeThreads to 1
+[2023-05-14 12:02:29.654] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2023-05-14 12:02:29.654] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2023-05-14 12:02:29.654] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2023-05-14 12:02:29.654] [jointLog] [info] parsing read library format
+[2023-05-14 12:02:29.654] [jointLog] [info] There is 1 library.
+[2023-05-14 12:02:29.735] [jointLog] [info] Loading pufferfish index
+[2023-05-14 12:02:29.735] [jointLog] [info] Loading dense pufferfish index.
+[2023-05-14 12:02:29.738] [jointLog] [info] done
+[2023-05-14 12:02:29.738] [jointLog] [info] Index contained 1 targets
+[2023-05-14 12:02:29.738] [jointLog] [info] Number of decoys : 0
+[2023-05-14 12:02:29.783] [fileLog] [info] 
+At end of round 0
+==================
+Observed 432 total fragments (432 in most recent round)
+
+[2023-05-14 12:02:29.783] [jointLog] [info] Computed 1 rich equivalence classes for further processing
+[2023-05-14 12:02:29.783] [jointLog] [info] Counted 408 total reads in the equivalence classes 
+[2023-05-14 12:02:29.783] [jointLog] [warning] 5.55556% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 1.
+
+
+[2023-05-14 12:02:29.783] [jointLog] [info] Number of mappings discarded because of alignment score : 0
+[2023-05-14 12:02:29.783] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 0
+[2023-05-14 12:02:29.783] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2023-05-14 12:02:29.784] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 0
+[2023-05-14 12:02:29.784] [jointLog] [warning] Only 408 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2023-05-14 12:02:29.784] [jointLog] [info] Mapping rate = 94.4444%
+
+[2023-05-14 12:02:29.784] [jointLog] [info] finished quantifyLibrary()
+[2023-05-14 12:02:29.786] [jointLog] [info] Starting optimizer
+[2023-05-14 12:02:29.787] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2023-05-14 12:02:29.787] [jointLog] [info] iteration = 0 | max rel diff. = 2.78644e-16
+[2023-05-14 12:02:29.787] [jointLog] [info] iteration = 100 | max rel diff. = 0
+[2023-05-14 12:02:29.787] [jointLog] [info] Finished optimizer
+[2023-05-14 12:02:29.787] [jointLog] [info] writing output 
+
+[2023-05-14 12:02:29.792] [jointLog] [warning] NOTE: Read Lib [[ /ahg/regev/users/bhaas/seq/bhaas/GIT/KRUMLOV/KrumlovTrinityWorkshopMay2023/treasurehunt/stage2/trinity_outdir/both.fa ]] :
+
+Detected a *potential* strand bias > 1% in an unstranded protocol check the file: salmon_outdir/lib_format_counts.json for details
+

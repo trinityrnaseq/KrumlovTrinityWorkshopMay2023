@@ -1,0 +1,21 @@
+Statistics:
+===========
+Trinity Version:      Trinity-v2.15.1
+Compiler:             GCC
+Trinity Parameters:   --left reads.simPE_R76_F300_FR.left.fa --right reads.simPE_R76_F300_FR.right.fa --seqType fa --max_memory 1G --CPU 1 --output trinity_outdir --no_normalize_reads
+Paired mode
+ Input data
+  Left.fasta    0 MByte
+  Right.fasta   0 MByte
+  Number of unique KMERs: 516
+  Number of reads:        780 Output data
+  Trinity.fasta 0 MByte
+
+Runtime
+=======
+Start:       Sun May 14 12:06:59 EDT 2023
+End:         Sun May 14 12:07:04 EDT 2023
+Trinity   5 seconds
+  Inchworm (phase 1 - read clustering)  1 seconds
+  Chrysalis (phase 1 - read clustering) 3 seconds
+  Rest (phase 2 - parallel assembly)       1 seconds

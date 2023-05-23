@@ -1,0 +1,22 @@
+{
+    "read_files": "[ /ahg/regev/users/bhaas/seq/bhaas/GIT/KRUMLOV/KrumlovTrinityWorkshopMay2023/treasurehunt/stage2/trinity_outdir/both.fa ]",
+    "expected_format": "U",
+    "compatible_fragment_ratio": 1.0,
+    "num_compatible_fragments": 408,
+    "num_assigned_fragments": 408,
+    "num_frags_with_concordant_consistent_mappings": 408,
+    "num_frags_with_inconsistent_or_orphan_mappings": 0,
+    "strand_mapping_bias": 0.16176470588235296,
+    "MSF": 0,
+    "OSF": 0,
+    "ISF": 0,
+    "MSR": 0,
+    "OSR": 0,
+    "ISR": 0,
+    "SF": 66,
+    "SR": 342,
+    "MU": 0,
+    "OU": 0,
+    "IU": 0,
+    "U": 0
+}
